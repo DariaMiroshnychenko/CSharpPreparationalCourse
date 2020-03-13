@@ -60,7 +60,7 @@ namespace SimCorp.IMS.Course
             }
         }
 
-        public string GetDescription()
+        public override string ToString()
         {
             var descriptionBuilder = new StringBuilder();
 

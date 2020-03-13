@@ -12,7 +12,7 @@ namespace SimCorp.IMS.Course.Application
         static void Main(string[] args)
         {
             SimCorpMobile SimCorpMobile = new SimCorpMobile();
-            Console.WriteLine(SimCorpMobile.GetDescription());
+            Console.WriteLine(SimCorpMobile);
 
             Console.ReadKey();
         }

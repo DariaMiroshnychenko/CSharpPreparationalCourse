@@ -41,38 +41,40 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Battery.cs" />
-    <Compile Include="CameraBase.cs" />
-    <Compile Include="ColorfulScreen.cs" />
+    <Compile Include="Camera\CameraBase.cs" />
+    <Compile Include="Screen\ColorfulScreen.cs" />
     <Compile Include="Connectivity.cs" />
-    <Compile Include="DualRearCamera.cs" />
-    <Compile Include="ECMicrophone.cs" />
-    <Compile Include="InternalStorage.cs" />
-    <Compile Include="IScreenImage.cs" />
-    <Compile Include="Keyboard.cs" />
-    <Compile Include="KeyboardLanguageLayout.cs" />
-    <Compile Include="LCDScreen.cs" />
-    <Compile Include="Lens.cs" />
-    <Compile Include="MEMSMicrophone.cs" />
-    <Compile Include="MicrophoneBase.cs" />
-    <Compile Include="MobilePhone.cs" />
-    <Compile Include="MonochromeScreen.cs" />
-    <Compile Include="MultiTouch.cs" />
+    <Compile Include="Camera\DualRearCamera.cs" />
+    <Compile Include="Microphone\ECMicrophone.cs" />
+    <Compile Include="Screen\LCDScreenMonochrome.cs" />
+    <Compile Include="Storage\InternalStorage.cs" />
+    <Compile Include="Screen\IScreenImage.cs" />
+    <Compile Include="Keyboard\Keyboard.cs" />
+    <Compile Include="Keyboard\KeyboardLanguageLayout.cs" />
+    <Compile Include="Screen\LCDScreenColorful.cs" />
+    <Compile Include="Camera\Lens.cs" />
+    <Compile Include="Microphone\MEMSMicrophone.cs" />
+    <Compile Include="Microphone\MicrophoneBase.cs" />
+    <Compile Include="Mobile phones\MobilePhone.cs" />
+    <Compile Include="Screen\MonochromeScreen.cs" />
+    <Compile Include="Touch functionality\MultiTouch.cs" />
     <Compile Include="Network.cs" />
-    <Compile Include="OLEDScreen.cs" />
+    <Compile Include="Screen\OLEDScreenColorful.cs" />
+    <Compile Include="Screen\OLEDScreenMonochrome.cs" />
     <Compile Include="Processor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RemovableStorage.cs" />
-    <Compile Include="RetinaScreen.cs" />
-    <Compile Include="ScreenBase.cs" />
+    <Compile Include="Storage\RemovableStorage.cs" />
+    <Compile Include="Screen\RetinaScreen.cs" />
+    <Compile Include="Screen\ScreenBase.cs" />
     <Compile Include="SimCard.cs" />
-    <Compile Include="SimCorpMobile.cs" />
-    <Compile Include="SingleRearCamera.cs" />
-    <Compile Include="SingleTouch.cs" />
+    <Compile Include="Mobile phones\SimCorpMobile.cs" />
+    <Compile Include="Camera\SingleRearCamera.cs" />
+    <Compile Include="Touch functionality\SingleTouch.cs" />
     <Compile Include="Software.cs" />
-    <Compile Include="TFTScreen.cs" />
-    <Compile Include="Touch.cs" />
-    <Compile Include="TouchBase.cs" />
+    <Compile Include="Touch functionality\Touch.cs" />
+    <Compile Include="Touch functionality\TouchBase.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Lab 1\SimCourse.IMS.Course.csproj">
+    <ProjectReference Include="..\Lab 1\SimCorp.IMS.Course.csproj">
       <Project>{09a76390-7613-4a10-b02d-b5650ea5e08a}</Project>
-      <Name>SimCourse.IMS.Course</Name>
+      <Name>SimCorp.IMS.Course</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

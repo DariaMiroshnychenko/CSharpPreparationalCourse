@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimCourse.IMS.Course", "Lab 1\SimCourse.IMS.Course.csproj", "{09A76390-7613-4A10-B02D-B5650EA5E08A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimCorp.IMS.Course", "Lab 1\SimCorp.IMS.Course.csproj", "{09A76390-7613-4A10-B02D-B5650EA5E08A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimCorp.IMS.Course.Application", "SimCorp.IMS.Course.Application\SimCorp.IMS.Course.Application.csproj", "{6CC3CE5E-5B57-42D4-AA85-789BDCF667B3}"
 EndProject

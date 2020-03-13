@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace SimCorp.IMS.Course
 {
-    public class OLEDScreen : ColorfulScreen
+    public class LCDScreenColorful : ColorfulScreen
     {
-        public OLEDScreen() : this(size: 6.5, 
-                                       resolution: new int[] { 2340, 1080 }, 
-                                       pixelsPerInch: 397, 
-                                       numberOfColors: 16.7)
+        public LCDScreenColorful() : this(size: 6.5,
+                                          resolution: new int[] { 2340, 1080 },
+                                          pixelsPerInch: 397,
+                                          numberOfColors: 16.7)
         {
 
         }
 
-        public OLEDScreen(double size, int[] resolution, int pixelsPerInch, double numberOfColors)
+        public LCDScreenColorful(double size, int[] resolution, int pixelsPerInch, double numberOfColors)
         {
             this.Size = size;
             this.Resolution = resolution;
@@ -26,17 +26,17 @@ namespace SimCorp.IMS.Course
 
         public override void ShowImage(IScreenImage screenImage)
         {
-            // logic of displaying an image on an OLED screen
+            // logic of displaying an image on a colorful LCD screen
         }
 
         public override void ShowImage(IScreenImage screenImage, int brightness)
         {
-            // logic of displaying an image on a OLED screen with a specified brightness
+            // logic of displaying an image on a colorful LCD screen with a specified brightness
         }
 
         public override string ToString()
         {
-            return "OLED Screen";
+            return "Colorful LCD Screen";
         }
     }
 }

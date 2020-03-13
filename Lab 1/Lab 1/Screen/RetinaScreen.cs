@@ -9,9 +9,9 @@ namespace SimCorp.IMS.Course
     public class RetinaScreen : ColorfulScreen
     {
         public RetinaScreen() : this(size: 6.5,
-                                       resolution: new int[] { 2340, 1080 },
-                                       pixelsPerInch: 397,
-                                       numberOfColors: 16.7)
+                                     resolution: new int[] { 2340, 1080 },
+                                     pixelsPerInch: 397,
+                                     numberOfColors: 16.7)
         {
 
         }
