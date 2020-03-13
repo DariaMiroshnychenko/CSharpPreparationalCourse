@@ -48,7 +48,7 @@
     <Compile Include="Microphone\ECMicrophone.cs" />
     <Compile Include="Screen\LCDScreenMonochrome.cs" />
     <Compile Include="Storage\InternalStorage.cs" />
-    <Compile Include="Screen\IScreenImage.cs" />
+    <Compile Include="Screen\Screen related\IScreenImage.cs" />
     <Compile Include="Keyboard\Keyboard.cs" />
     <Compile Include="Keyboard\KeyboardLanguageLayout.cs" />
     <Compile Include="Screen\LCDScreenColorful.cs" />
